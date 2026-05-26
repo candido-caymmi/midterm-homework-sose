@@ -1,0 +1,4 @@
+[
+  {"name":"Colosseum","location":"Rome","category":"Historical Site","sustainability":"high","accessible":true,"riskLevel":"low","sameAs":"https://www.wikidata.org/wiki/Q10285"},
+  {"name":"Vatican Museum","location":"Rome","category":"Religious Heritage","sustainability":"high","accessible":true,"riskLevel":"low","sameAs":"https://www.wikidata.org/wiki/Q182955"}
+]
