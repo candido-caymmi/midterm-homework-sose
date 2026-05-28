@@ -1,0 +1,35 @@
+{
+  "id": "sustainability_policy",
+  "description": "Evaluate tourism recommendations according to environmental pressure, visitor pressure, and sustainability indicators.",
+  "domain": "tourism",
+  "rules": [
+    {
+      "id": "low_sustainability_score",
+      "condition": {
+        "item_sustainability_score_less_than": 5
+      },
+      "riskImpact": "MEDIUM",
+      "decision": "REVISE",
+      "requiredAction": "Explain the low sustainability score and suggest more sustainable alternatives."
+    },
+    {
+      "id": "high_visitor_pressure_sensitive_area",
+      "condition": {
+        "item_visitor_pressure": "high",
+        "item_environmental_sensitivity": "high"
+      },
+      "riskImpact": "HIGH",
+      "decision": "ESCALATE",
+      "requiredAction": "Avoid automatic recommendation during peak periods and display a sustainability warning."
+    },
+    {
+      "id": "high_local_community_impact",
+      "condition": {
+        "item_local_community_impact": "high"
+      },
+      "riskImpact": "MEDIUM",
+      "decision": "REVISE",
+      "requiredAction": "Explain possible pressure on the local community and suggest responsible visiting behavior."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "accessibility_policy",
+  "description": "Avoid recommending inaccessible attractions to users with reduced mobility or vulnerable mobility conditions.",
+  "domain": "tourism",
+  "rules": [
+    {
+      "id": "reduced_mobility_without_wheelchair_access",
+      "condition": {
+        "user_mobility": "reduced",
+        "item_wheelchair_accessible": false
+      },
+      "riskImpact": "HIGH",
+      "decision": "REJECT",
+      "requiredAction": "Do not recommend this attraction to users with reduced mobility. Suggest accessible alternatives."
+    },
+    {
+      "id": "reduced_mobility_without_step_free_access",
+      "condition": {
+        "user_mobility": "reduced",
+        "item_step_free_access": false
+      },
+      "riskImpact": "MEDIUM",
+      "decision": "REVISE",
+      "requiredAction": "Show a step-free access warning and suggest an easier route or alternative attraction."
+    },
+    {
+      "id": "reduced_mobility_without_accessible_toilets",
+      "condition": {
+        "user_mobility": "reduced",
+        "item_accessible_toilets": false
+      },
+      "riskImpact": "MEDIUM",
+      "decision": "REVISE",
+      "requiredAction": "Inform the user that accessible toilets may not be available."
+    }
+  ]
+}

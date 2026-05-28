@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:tourism="http://odws.univaq.it/tourism/"
+    xmlns:dbo="http://dbpedia.org/ontology/"
+    xmlns:dbr="http://dbpedia.org/resource/"
+    xmlns:schema="https://schema.org/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+    <rdf:Description rdf:about="http://odws.univaq.it/tourism/1">
+        <rdf:type rdf:resource="https://schema.org/TouristAttraction"/>
+        <schema:name>Colosseum</schema:name>
+        <dbo:location rdf:resource="http://dbpedia.org/resource/Rome"/>
+        <schema:category>Historical Site</schema:category>
+        <schema:sameAs rdf:resource="https://www.wikidata.org/wiki/Q10285"/>
+
+        <tourism:declaredRiskLevel>low</tourism:declaredRiskLevel>
+
+        <tourism:wheelchairAccessible rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:wheelchairAccessible>
+        <tourism:stepFreeAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:stepFreeAccess>
+        <tourism:accessibleToilets rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:accessibleToilets>
+
+        <tourism:publicTransportAvailable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:publicTransportAvailable>
+        <tourism:visitorPressure>high</tourism:visitorPressure>
+        <tourism:environmentalSensitivity>medium</tourism:environmentalSensitivity>
+        <tourism:localCommunityImpact>medium</tourism:localCommunityImpact>
+        <tourism:sustainabilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</tourism:sustainabilityScore>
+
+        <tourism:dataSource>official_tourism_dataset</tourism:dataSource>
+        <tourism:dataLicense>CC-BY</tourism:dataLicense>
+        <tourism:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-20</tourism:lastUpdated>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://odws.univaq.it/tourism/2">
+        <rdf:type rdf:resource="https://schema.org/TouristAttraction"/>
+        <schema:name>Pompeii</schema:name>
+        <dbo:location rdf:resource="http://dbpedia.org/resource/Naples"/>
+        <schema:category>Archaeological Site</schema:category>
+        <schema:sameAs rdf:resource="https://www.wikidata.org/wiki/Q43332"/>
+
+        <tourism:declaredRiskLevel>low</tourism:declaredRiskLevel>
+
+        <tourism:wheelchairAccessible rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:wheelchairAccessible>
+        <tourism:stepFreeAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tourism:stepFreeAccess>
+        <tourism:accessibleToilets rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:accessibleToilets>
+
+        <tourism:publicTransportAvailable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:publicTransportAvailable>
+        <tourism:visitorPressure>medium</tourism:visitorPressure>
+        <tourism:environmentalSensitivity>high</tourism:environmentalSensitivity>
+        <tourism:localCommunityImpact>medium</tourism:localCommunityImpact>
+        <tourism:sustainabilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</tourism:sustainabilityScore>
+
+        <tourism:dataSource>official_tourism_dataset</tourism:dataSource>
+        <tourism:dataLicense>CC-BY</tourism:dataLicense>
+        <tourism:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-20</tourism:lastUpdated>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://odws.univaq.it/tourism/3">
+        <rdf:type rdf:resource="https://schema.org/TouristAttraction"/>
+        <schema:name>Venice</schema:name>
+        <dbo:location rdf:resource="http://dbpedia.org/resource/Venice"/>
+        <schema:category>City Tourism</schema:category>
+        <schema:sameAs rdf:resource="https://www.wikidata.org/wiki/Q641"/>
+
+        <tourism:declaredRiskLevel>medium</tourism:declaredRiskLevel>
+
+        <tourism:wheelchairAccessible rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tourism:wheelchairAccessible>
+        <tourism:stepFreeAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tourism:stepFreeAccess>
+        <tourism:accessibleToilets rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tourism:accessibleToilets>
+
+        <tourism:publicTransportAvailable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:publicTransportAvailable>
+        <tourism:visitorPressure>high</tourism:visitorPressure>
+        <tourism:environmentalSensitivity>high</tourism:environmentalSensitivity>
+        <tourism:localCommunityImpact>high</tourism:localCommunityImpact>
+        <tourism:sustainabilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</tourism:sustainabilityScore>
+
+        <tourism:dataSource>mixed_sources</tourism:dataSource>
+        <tourism:dataLicense>unknown</tourism:dataLicense>
+        <tourism:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-01</tourism:lastUpdated>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://odws.univaq.it/tourism/4">
+        <rdf:type rdf:resource="https://schema.org/TouristAttraction"/>
+        <schema:name>Amalfi Coast</schema:name>
+        <dbo:location rdf:resource="http://dbpedia.org/resource/Salerno"/>
+        <schema:category>Beach Tourism</schema:category>
+        <schema:sameAs rdf:resource="https://www.wikidata.org/wiki/Q203935"/>
+
+        <tourism:declaredRiskLevel>medium</tourism:declaredRiskLevel>
+
+        <tourism:wheelchairAccessible rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:wheelchairAccessible>
+        <tourism:stepFreeAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tourism:stepFreeAccess>
+        <tourism:accessibleToilets rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:accessibleToilets>
+
+        <tourism:publicTransportAvailable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tourism:publicTransportAvailable>
+        <tourism:visitorPressure>high</tourism:visitorPressure>
+        <tourism:environmentalSensitivity>high</tourism:environmentalSensitivity>
+        <tourism:localCommunityImpact>medium</tourism:localCommunityImpact>
+        <tourism:sustainabilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</tourism:sustainabilityScore>
+
+        <tourism:dataSource>regional_tourism_dataset</tourism:dataSource>
+        <tourism:dataLicense>CC-BY</tourism:dataLicense>
+        <tourism:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-15</tourism:lastUpdated>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://odws.univaq.it/tourism/5">
+        <rdf:type rdf:resource="https://schema.org/TouristAttraction"/>
+        <schema:name>Vatican Museum</schema:name>
+        <dbo:location rdf:resource="http://dbpedia.org/resource/Rome"/>
+        <schema:category>Religious Heritage</schema:category>
+        <schema:sameAs rdf:resource="https://www.wikidata.org/wiki/Q182955"/>
+
+        <tourism:declaredRiskLevel>low</tourism:declaredRiskLevel>
+
+        <tourism:wheelchairAccessible rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:wheelchairAccessible>
+        <tourism:stepFreeAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:stepFreeAccess>
+        <tourism:accessibleToilets rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:accessibleToilets>
+
+        <tourism:publicTransportAvailable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:publicTransportAvailable>
+        <tourism:visitorPressure>high</tourism:visitorPressure>
+        <tourism:environmentalSensitivity>medium</tourism:environmentalSensitivity>
+        <tourism:localCommunityImpact>medium</tourism:localCommunityImpact>
+        <tourism:sustainabilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</tourism:sustainabilityScore>
+
+        <tourism:dataSource>official_tourism_dataset</tourism:dataSource>
+        <tourism:dataLicense>CC-BY</tourism:dataLicense>
+        <tourism:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-20</tourism:lastUpdated>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://odws.univaq.it/tourism/6">
+        <rdf:type rdf:resource="https://schema.org/TouristAttraction"/>
+        <schema:name>Lake Como</schema:name>
+        <dbo:location rdf:resource="http://dbpedia.org/resource/Como"/>
+        <schema:category>Nature Tourism</schema:category>
+        <schema:sameAs rdf:resource="https://www.wikidata.org/wiki/Q14491"/>
+
+        <tourism:declaredRiskLevel>low</tourism:declaredRiskLevel>
+
+        <tourism:wheelchairAccessible rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:wheelchairAccessible>
+        <tourism:stepFreeAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:stepFreeAccess>
+        <tourism:accessibleToilets rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tourism:accessibleToilets>
+
+        <tourism:publicTransportAvailable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:publicTransportAvailable>
+        <tourism:visitorPressure>medium</tourism:visitorPressure>
+        <tourism:environmentalSensitivity>high</tourism:environmentalSensitivity>
+        <tourism:localCommunityImpact>medium</tourism:localCommunityImpact>
+        <tourism:sustainabilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</tourism:sustainabilityScore>
+
+        <tourism:dataSource>regional_tourism_dataset</tourism:dataSource>
+        <tourism:dataLicense>CC-BY</tourism:dataLicense>
+        <tourism:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-10</tourism:lastUpdated>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://odws.univaq.it/tourism/7">
+        <rdf:type rdf:resource="https://schema.org/TouristAttraction"/>
+        <schema:name>Cinque Terre</schema:name>
+        <dbo:location rdf:resource="http://dbpedia.org/resource/Liguria"/>
+        <schema:category>Nature Tourism</schema:category>
+        <schema:sameAs rdf:resource="https://www.wikidata.org/wiki/Q20571"/>
+
+        <tourism:declaredRiskLevel>medium</tourism:declaredRiskLevel>
+
+        <tourism:wheelchairAccessible rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tourism:wheelchairAccessible>
+        <tourism:stepFreeAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tourism:stepFreeAccess>
+        <tourism:accessibleToilets rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tourism:accessibleToilets>
+
+        <tourism:publicTransportAvailable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:publicTransportAvailable>
+        <tourism:visitorPressure>high</tourism:visitorPressure>
+        <tourism:environmentalSensitivity>high</tourism:environmentalSensitivity>
+        <tourism:localCommunityImpact>medium</tourism:localCommunityImpact>
+        <tourism:sustainabilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</tourism:sustainabilityScore>
+
+        <tourism:dataSource>regional_tourism_dataset</tourism:dataSource>
+        <tourism:dataLicense>CC-BY</tourism:dataLicense>
+        <tourism:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-18</tourism:lastUpdated>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://odws.univaq.it/tourism/8">
+        <rdf:type rdf:resource="https://schema.org/TouristAttraction"/>
+        <schema:name>Uffizi Gallery</schema:name>
+        <dbo:location rdf:resource="http://dbpedia.org/resource/Florence"/>
+        <schema:category>Art Museum</schema:category>
+        <schema:sameAs rdf:resource="https://www.wikidata.org/wiki/Q51252"/>
+
+        <tourism:declaredRiskLevel>low</tourism:declaredRiskLevel>
+
+        <tourism:wheelchairAccessible rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:wheelchairAccessible>
+        <tourism:stepFreeAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:stepFreeAccess>
+        <tourism:accessibleToilets rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:accessibleToilets>
+
+        <tourism:publicTransportAvailable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:publicTransportAvailable>
+        <tourism:visitorPressure>high</tourism:visitorPressure>
+        <tourism:environmentalSensitivity>low</tourism:environmentalSensitivity>
+        <tourism:localCommunityImpact>medium</tourism:localCommunityImpact>
+        <tourism:sustainabilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</tourism:sustainabilityScore>
+
+        <tourism:dataSource>official_tourism_dataset</tourism:dataSource>
+        <tourism:dataLicense>CC-BY</tourism:dataLicense>
+        <tourism:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-20</tourism:lastUpdated>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://odws.univaq.it/tourism/9">
+        <rdf:type rdf:resource="https://schema.org/TouristAttraction"/>
+        <schema:name>Leaning Tower of Pisa</schema:name>
+        <dbo:location rdf:resource="http://dbpedia.org/resource/Pisa"/>
+        <schema:category>Historical Monument</schema:category>
+        <schema:sameAs rdf:resource="https://www.wikidata.org/wiki/Q39054"/>
+
+        <tourism:declaredRiskLevel>low</tourism:declaredRiskLevel>
+
+        <tourism:wheelchairAccessible rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:wheelchairAccessible>
+        <tourism:stepFreeAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tourism:stepFreeAccess>
+        <tourism:accessibleToilets rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:accessibleToilets>
+
+        <tourism:publicTransportAvailable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:publicTransportAvailable>
+        <tourism:visitorPressure>medium</tourism:visitorPressure>
+        <tourism:environmentalSensitivity>medium</tourism:environmentalSensitivity>
+        <tourism:localCommunityImpact>medium</tourism:localCommunityImpact>
+        <tourism:sustainabilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</tourism:sustainabilityScore>
+
+        <tourism:dataSource>official_tourism_dataset</tourism:dataSource>
+        <tourism:dataLicense>CC-BY</tourism:dataLicense>
+        <tourism:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-01-25</tourism:lastUpdated>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://odws.univaq.it/tourism/10">
+        <rdf:type rdf:resource="https://schema.org/TouristAttraction"/>
+        <schema:name>Duomo di Milano</schema:name>
+        <dbo:location rdf:resource="http://dbpedia.org/resource/Milan"/>
+        <schema:category>Religious Heritage</schema:category>
+        <schema:sameAs rdf:resource="https://www.wikidata.org/wiki/Q18068"/>
+
+        <tourism:declaredRiskLevel>low</tourism:declaredRiskLevel>
+
+        <tourism:wheelchairAccessible rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:wheelchairAccessible>
+        <tourism:stepFreeAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:stepFreeAccess>
+        <tourism:accessibleToilets rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:accessibleToilets>
+
+        <tourism:publicTransportAvailable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:publicTransportAvailable>
+        <tourism:visitorPressure>high</tourism:visitorPressure>
+        <tourism:environmentalSensitivity>low</tourism:environmentalSensitivity>
+        <tourism:localCommunityImpact>medium</tourism:localCommunityImpact>
+        <tourism:sustainabilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</tourism:sustainabilityScore>
+
+        <tourism:dataSource>official_tourism_dataset</tourism:dataSource>
+        <tourism:dataLicense>CC-BY</tourism:dataLicense>
+        <tourism:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-20</tourism:lastUpdated>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://odws.univaq.it/tourism/11">
+        <rdf:type rdf:resource="https://schema.org/TouristAttraction"/>
+        <schema:name>Verona Arena</schema:name>
+        <dbo:location rdf:resource="http://dbpedia.org/resource/Verona"/>
+        <schema:category>Historical Site</schema:category>
+        <schema:sameAs rdf:resource="https://www.wikidata.org/wiki/Q7863"/>
+
+        <tourism:declaredRiskLevel>low</tourism:declaredRiskLevel>
+
+        <tourism:wheelchairAccessible rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:wheelchairAccessible>
+        <tourism:stepFreeAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tourism:stepFreeAccess>
+        <tourism:accessibleToilets rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:accessibleToilets>
+
+        <tourism:publicTransportAvailable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:publicTransportAvailable>
+        <tourism:visitorPressure>medium</tourism:visitorPressure>
+        <tourism:environmentalSensitivity>medium</tourism:environmentalSensitivity>
+        <tourism:localCommunityImpact>medium</tourism:localCommunityImpact>
+        <tourism:sustainabilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</tourism:sustainabilityScore>
+
+        <tourism:dataSource>municipal_tourism_dataset</tourism:dataSource>
+        <tourism:dataLicense>CC-BY</tourism:dataLicense>
+        <tourism:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-10</tourism:lastUpdated>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://odws.univaq.it/tourism/12">
+        <rdf:type rdf:resource="https://schema.org/TouristAttraction"/>
+        <schema:name>Mount Etna</schema:name>
+        <dbo:location rdf:resource="http://dbpedia.org/resource/Sicily"/>
+        <schema:category>Nature Tourism</schema:category>
+        <schema:sameAs rdf:resource="https://www.wikidata.org/wiki/Q169358"/>
+
+        <tourism:declaredRiskLevel>high</tourism:declaredRiskLevel>
+
+        <tourism:wheelchairAccessible rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tourism:wheelchairAccessible>
+        <tourism:stepFreeAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tourism:stepFreeAccess>
+        <tourism:accessibleToilets rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tourism:accessibleToilets>
+
+        <tourism:publicTransportAvailable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tourism:publicTransportAvailable>
+        <tourism:visitorPressure>medium</tourism:visitorPressure>
+        <tourism:environmentalSensitivity>high</tourism:environmentalSensitivity>
+        <tourism:localCommunityImpact>medium</tourism:localCommunityImpact>
+        <tourism:sustainabilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</tourism:sustainabilityScore>
+
+        <tourism:dataSource>regional_tourism_dataset</tourism:dataSource>
+        <tourism:dataLicense>CC-BY</tourism:dataLicense>
+        <tourism:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-01</tourism:lastUpdated>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://odws.univaq.it/tourism/13">
+        <rdf:type rdf:resource="https://schema.org/TouristAttraction"/>
+        <schema:name>Capri</schema:name>
+        <dbo:location rdf:resource="http://dbpedia.org/resource/Capri"/>
+        <schema:category>Island Tourism</schema:category>
+        <schema:sameAs rdf:resource="https://www.wikidata.org/wiki/Q171927"/>
+
+        <tourism:declaredRiskLevel>medium</tourism:declaredRiskLevel>
+
+        <tourism:wheelchairAccessible rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tourism:wheelchairAccessible>
+        <tourism:stepFreeAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tourism:stepFreeAccess>
+        <tourism:accessibleToilets rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:accessibleToilets>
+
+        <tourism:publicTransportAvailable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tourism:publicTransportAvailable>
+        <tourism:visitorPressure>high</tourism:visitorPressure>
+        <tourism:environmentalSensitivity>high</tourism:environmentalSensitivity>
+        <tourism:localCommunityImpact>high</tourism:localCommunityImpact>
+        <tourism:sustainabilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</tourism:sustainabilityScore>
+
+        <tourism:dataSource>mixed_sources</tourism:dataSource>
+        <tourism:dataLicense>unknown</tourism:dataLicense>
+        <tourism:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-11-15</tourism:lastUpdated>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://odws.univaq.it/tourism/14">
+        <rdf:type rdf:resource="https://schema.org/TouristAttraction"/>
+        <schema:name>Sassi di Matera</schema:name>
+        <dbo:location rdf:resource="http://dbpedia.org/resource/Matera"/>
+        <schema:category>Cultural Heritage</schema:category>
+        <schema:sameAs rdf:resource="https://www.wikidata.org/wiki/Q131477"/>
+
+        <tourism:declaredRiskLevel>medium</tourism:declaredRiskLevel>
+
+        <tourism:wheelchairAccessible rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tourism:wheelchairAccessible>
+        <tourism:stepFreeAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tourism:stepFreeAccess>
+        <tourism:accessibleToilets rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:accessibleToilets>
+
+        <tourism:publicTransportAvailable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:publicTransportAvailable>
+        <tourism:visitorPressure>medium</tourism:visitorPressure>
+        <tourism:environmentalSensitivity>medium</tourism:environmentalSensitivity>
+        <tourism:localCommunityImpact>high</tourism:localCommunityImpact>
+        <tourism:sustainabilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</tourism:sustainabilityScore>
+
+        <tourism:dataSource>official_tourism_dataset</tourism:dataSource>
+        <tourism:dataLicense>CC-BY</tourism:dataLicense>
+        <tourism:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-05</tourism:lastUpdated>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://odws.univaq.it/tourism/15">
+        <rdf:type rdf:resource="https://schema.org/TouristAttraction"/>
+        <schema:name>Royal Palace of Caserta</schema:name>
+        <dbo:location rdf:resource="http://dbpedia.org/resource/Caserta"/>
+        <schema:category>Historical Palace</schema:category>
+        <schema:sameAs rdf:resource="https://www.wikidata.org/wiki/Q182881"/>
+
+        <tourism:declaredRiskLevel>low</tourism:declaredRiskLevel>
+
+        <tourism:wheelchairAccessible rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:wheelchairAccessible>
+        <tourism:stepFreeAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:stepFreeAccess>
+        <tourism:accessibleToilets rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:accessibleToilets>
+
+        <tourism:publicTransportAvailable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:publicTransportAvailable>
+        <tourism:visitorPressure>medium</tourism:visitorPressure>
+        <tourism:environmentalSensitivity>medium</tourism:environmentalSensitivity>
+        <tourism:localCommunityImpact>medium</tourism:localCommunityImpact>
+        <tourism:sustainabilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</tourism:sustainabilityScore>
+
+        <tourism:dataSource>official_tourism_dataset</tourism:dataSource>
+        <tourism:dataLicense>CC-BY</tourism:dataLicense>
+        <tourism:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-20</tourism:lastUpdated>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://odws.univaq.it/tourism/16">
+        <rdf:type rdf:resource="https://schema.org/TouristAttraction"/>
+        <schema:name>Trevi Fountain</schema:name>
+        <dbo:location rdf:resource="http://dbpedia.org/resource/Rome"/>
+        <schema:category>Historical Monument</schema:category>
+        <schema:sameAs rdf:resource="https://www.wikidata.org/wiki/Q185382"/>
+
+        <tourism:declaredRiskLevel>low</tourism:declaredRiskLevel>
+
+        <tourism:wheelchairAccessible rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:wheelchairAccessible>
+        <tourism:stepFreeAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:stepFreeAccess>
+        <tourism:accessibleToilets rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tourism:accessibleToilets>
+
+        <tourism:publicTransportAvailable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:publicTransportAvailable>
+        <tourism:visitorPressure>high</tourism:visitorPressure>
+        <tourism:environmentalSensitivity>medium</tourism:environmentalSensitivity>
+        <tourism:localCommunityImpact>high</tourism:localCommunityImpact>
+        <tourism:sustainabilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</tourism:sustainabilityScore>
+
+        <tourism:dataSource>municipal_tourism_dataset</tourism:dataSource>
+        <tourism:dataLicense>CC-BY</tourism:dataLicense>
+        <tourism:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-12</tourism:lastUpdated>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://odws.univaq.it/tourism/17">
+        <rdf:type rdf:resource="https://schema.org/TouristAttraction"/>
+        <schema:name>Roman Forum</schema:name>
+        <dbo:location rdf:resource="http://dbpedia.org/resource/Rome"/>
+        <schema:category>Archaeological Site</schema:category>
+        <schema:sameAs rdf:resource="https://www.wikidata.org/wiki/Q180212"/>
+
+        <tourism:declaredRiskLevel>medium</tourism:declaredRiskLevel>
+        
+        <tourism:wheelchairAccessible rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tourism:wheelchairAccessible>
+        <tourism:stepFreeAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tourism:stepFreeAccess>
+        <tourism:accessibleToilets rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tourism:accessibleToilets>
+
+        <tourism:publicTransportAvailable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:publicTransportAvailable>
+        <tourism:visitorPressure>high</tourism:visitorPressure>
+        <tourism:environmentalSensitivity>medium</tourism:environmentalSensitivity>
+        <tourism:localCommunityImpact>medium</tourism:localCommunityImpact>
+        <tourism:sustainabilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</tourism:sustainabilityScore>
+
+        <tourism:dataSource>official_tourism_dataset</tourism:dataSource>
+        <tourism:dataLicense>CC-BY</tourism:dataLicense>
+        <tourism:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-20</tourism:lastUpdated>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://odws.univaq.it/tourism/18">
+        <rdf:type rdf:resource="https://schema.org/TouristAttraction"/>
+        <schema:name>Borghese Gallery</schema:name>
+        <dbo:location rdf:resource="http://dbpedia.org/resource/Rome"/>
+        <schema:category>Art Museum</schema:category>
+        <schema:sameAs rdf:resource="https://www.wikidata.org/wiki/Q661792"/>
+
+        <tourism:declaredRiskLevel>low</tourism:declaredRiskLevel>
+
+        <tourism:wheelchairAccessible rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:wheelchairAccessible>
+        <tourism:stepFreeAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:stepFreeAccess>
+        <tourism:accessibleToilets rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:accessibleToilets>
+
+        <tourism:publicTransportAvailable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:publicTransportAvailable>
+        <tourism:visitorPressure>medium</tourism:visitorPressure>
+        <tourism:environmentalSensitivity>low</tourism:environmentalSensitivity>
+        <tourism:localCommunityImpact>medium</tourism:localCommunityImpact>
+        <tourism:sustainabilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</tourism:sustainabilityScore>
+
+        <tourism:dataSource>official_tourism_dataset</tourism:dataSource>
+        <tourism:dataLicense>CC-BY</tourism:dataLicense>
+        <tourism:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-20</tourism:lastUpdated>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://odws.univaq.it/tourism/19">
+        <rdf:type rdf:resource="https://schema.org/TouristAttraction"/>
+        <schema:name>Rialto Bridge</schema:name>
+        <dbo:location rdf:resource="http://dbpedia.org/resource/Venice"/>
+        <schema:category>Historical Monument</schema:category>
+        <schema:sameAs rdf:resource="https://www.wikidata.org/wiki/Q238925"/>
+
+        <tourism:declaredRiskLevel>medium</tourism:declaredRiskLevel>
+
+        <tourism:wheelchairAccessible rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tourism:wheelchairAccessible>
+        <tourism:stepFreeAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tourism:stepFreeAccess>
+        <tourism:accessibleToilets rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tourism:accessibleToilets>
+
+        <tourism:publicTransportAvailable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:publicTransportAvailable>
+        <tourism:visitorPressure>high</tourism:visitorPressure>
+        <tourism:environmentalSensitivity>high</tourism:environmentalSensitivity>
+        <tourism:localCommunityImpact>high</tourism:localCommunityImpact>
+        <tourism:sustainabilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</tourism:sustainabilityScore>
+
+        <tourism:dataSource>mixed_sources</tourism:dataSource>
+        <tourism:dataLicense>unknown</tourism:dataLicense>
+        <tourism:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-01</tourism:lastUpdated>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://odws.univaq.it/tourism/20">
+        <rdf:type rdf:resource="https://schema.org/TouristAttraction"/>
+        <schema:name>St Mark's Basilica</schema:name>
+        <dbo:location rdf:resource="http://dbpedia.org/resource/Venice"/>
+        <schema:category>Religious Heritage</schema:category>
+        <schema:sameAs rdf:resource="https://www.wikidata.org/wiki/Q45843"/>
+
+        <tourism:declaredRiskLevel>medium</tourism:declaredRiskLevel>
+
+        <tourism:wheelchairAccessible rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:wheelchairAccessible>
+        <tourism:stepFreeAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:stepFreeAccess>
+        <tourism:accessibleToilets rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:accessibleToilets>
+
+        <tourism:publicTransportAvailable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tourism:publicTransportAvailable>
+        <tourism:visitorPressure>high</tourism:visitorPressure>
+        <tourism:environmentalSensitivity>high</tourism:environmentalSensitivity>
+        <tourism:localCommunityImpact>high</tourism:localCommunityImpact>
+        <tourism:sustainabilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</tourism:sustainabilityScore>
+
+        <tourism:dataSource>official_tourism_dataset</tourism:dataSource>
+        <tourism:dataLicense>CC-BY</tourism:dataLicense>
+        <tourism:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-20</tourism:lastUpdated>
+    </rdf:Description>
+
+</rdf:RDF>

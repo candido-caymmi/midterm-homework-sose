@@ -1,0 +1,25 @@
+{
+  "id": "transparency_policy",
+  "description": "Every recommendation must be explainable and must disclose that declared risk values are not trusted by the EaaS.",
+  "domain": "tourism",
+  "rules": [
+    {
+      "id": "recommendation_requires_explanation",
+      "condition": {
+        "operation": "TOURISM_RECOMMENDATION"
+      },
+      "riskImpact": "LOW",
+      "decision": "PROCEED",
+      "requiredAction": "Display the criteria used in the recommendation: accessibility, public transport, sustainability, provenance, and user context."
+    },
+    {
+      "id": "declared_risk_must_not_define_decision",
+      "condition": {
+        "operation": "TOURISM_RECOMMENDATION"
+      },
+      "riskImpact": "LOW",
+      "decision": "PROCEED",
+      "requiredAction": "Inform that declaredRiskLevel was received only as metadata and was ignored when calculating the ethical risk."
+    }
+  ]
+}
