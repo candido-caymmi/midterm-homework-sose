@@ -1,9 +1,0 @@
-{
-  "name": "Colosseum",
-  "location": "Rome",
-  "category": "Historical Site",
-  "sustainability": "high",
-  "accessible": true,
-  "riskLevel": "low",
-  "sameAs": "https://www.wikidata.org/wiki/Q10285"
-}
